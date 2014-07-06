@@ -38,3 +38,47 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+.fullwidth {
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.bgwhite {
+  background-color: #ffffff;
+}
+
+
+div.icon-bar label { // opravuje settings - neuplne definice
+  font-size: .7rem !important;
+}
+/*
+.icon-bar.seven-up .item {
+  width: 14.28%;
+}
+
+*/
+
+// doplněk/lepší definice k six-up
+.icon-bar.up10 .item {
+  width: 10%;
+}
+.icon-bar.up11 .item {
+  width: 9.091%;
+}
+.icon-bar.up12 .item {
+  width: 8.3334%;
+}
+.icon-bar.up13 .item {
+  width: 7.692%;
+}
+.icon-bar.up14 .item {
+  width: 7.143%;
+}
+
+.icon-bar.up20 .item {
+  width: 5%;
+}
